@@ -1,0 +1,83 @@
+.containerselect {
+  position: relative;
+  margin-bottom: 20px;
+}
+.selectedbox {
+  display: flex;
+  flex-direction: column;
+  width: 104%;
+  position: absolute;
+  top: -2%;
+  left: -2%;
+  /* ====== */
+}
+.selected {
+  background: #eef0f1;
+  border-radius: 5px;
+  color: #260050;
+  position: relative;
+  order: 0;
+}
+.selected::after {
+  content: "";
+  background-image: url("../image/angle-arrow-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 16px;
+  top: 32%;
+  right: 4%;
+  filter: invert(7%) sepia(26%) saturate(7397%) hue-rotate(264deg)
+    brightness(130%) contrast(132%);
+}
+
+.selectedbox .optioncontainer {
+  color: #260050;
+  max-height: 0;
+  width: 100%;
+
+  overflow: hidden;
+  border: solid 2px transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #c211ba, #6d00ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  z-index: 20;
+}
+.selectedbox .optioncontainer.active {
+  max-height: 240px;
+}
+
+.selectedbox .option,
+.selected {
+  padding: 11.5px 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.selectedbox .option {
+  transition: all linear 250ms;
+  border-bottom: 2px solid #c8cdd3;
+}
+.selectedbox .option:nth-last-child(1) {
+  border: none;
+}
+.selectedbox .option:hover {
+  transition: all linear 250ms;
+  color: #6229ff;
+}
+.selectedbox label {
+  cursor: pointer;
+  font-weight: 500;
+}
+.selectedbox .option .radio {
+  display: none;
+}
+.focus {
+  color: #c311ba;
+  transition: all linear 250ms;
+}
+.label {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,22 @@
+.enter {
+  width: 104%;
+  max-height: 40px;
+  opacity: 0;
+}
+.enterActive {
+  opacity: 1;
+  width: 104%;
+  max-height: 200px;
+  transition: all 150ms;
+}
+.exit {
+  opacity: 1;
+  width: 104%;
+  max-height: 200px;
+}
+.exitActive {
+  width: 104%;
+  max-height: 0px;
+  opacity: 0;
+  transition: all 150ms;
+}
