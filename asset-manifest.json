@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/signup-form/static/css/main.59261a03.chunk.css",
+    "main.js": "/signup-form/static/js/main.c57b9a45.chunk.js",
+    "main.js.map": "/signup-form/static/js/main.c57b9a45.chunk.js.map",
+    "runtime-main.js": "/signup-form/static/js/runtime-main.1c2e0be3.js",
+    "runtime-main.js.map": "/signup-form/static/js/runtime-main.1c2e0be3.js.map",
+    "static/js/2.be6d4749.chunk.js": "/signup-form/static/js/2.be6d4749.chunk.js",
+    "static/js/2.be6d4749.chunk.js.map": "/signup-form/static/js/2.be6d4749.chunk.js.map",
+    "index.html": "/signup-form/index.html",
+    "precache-manifest.368e8c2cc5a1538debb9bc51df172a5c.js": "/signup-form/precache-manifest.368e8c2cc5a1538debb9bc51df172a5c.js",
+    "service-worker.js": "/signup-form/service-worker.js",
+    "static/css/main.59261a03.chunk.css.map": "/signup-form/static/css/main.59261a03.chunk.css.map",
+    "static/js/2.be6d4749.chunk.js.LICENSE.txt": "/signup-form/static/js/2.be6d4749.chunk.js.LICENSE.txt",
+    "static/media/Form.css": "/signup-form/static/media/angle-arrow-down.412f3289.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c2e0be3.js",
+    "static/js/2.be6d4749.chunk.js",
+    "static/css/main.59261a03.chunk.css",
+    "static/js/main.c57b9a45.chunk.js"
+  ]
+}
