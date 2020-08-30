@@ -12,8 +12,8 @@ write commands in your terminal :<br>
 3 For changing users with out back end i used uuidv4 libary.<br>
 4 Added button for changing type of css animations by user.<br>
 5 Implemented form validations and errors.<br>
-6 Used CssTransiyions to animate Errors popup<br>
-7 All info About user stores in state.<br>
+6 Used CssTransitions to animate Errors popup<br>
+7 All info about user stores in state.<br>
 
 ## Available Scripts
 
