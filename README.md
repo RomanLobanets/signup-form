@@ -9,11 +9,11 @@ write commands in your terminal :<br>
 
 1 Implemented optimizely form A/B test<br>
 2 For each user optimizely will use different type of css animations.<br>
-3 For changing users with out back end i used uuidv4 libary.
-4 Added button for changing type of css animations by user.
-5 Implemented form validations and errors.
-6 Used CssTransiyions to animate Errors popup
-7 All info About user stores in state
+3 For changing users with out back end i used uuidv4 libary.<br>
+4 Added button for changing type of css animations by user.<br>
+5 Implemented form validations and errors.<br>
+6 Used CssTransiyions to animate Errors popup<br>
+7 All info About user stores in state.<br>
 
 ## Available Scripts
 
