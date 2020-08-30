@@ -1,3 +1,20 @@
+## How to clone app and download dependencies
+
+write commands in your terminal :
+
+1 git clone https://github.com/RomanLobanets/signup-form
+2 npm i
+
+## About App
+
+1 Implemented optimizely form A/B test
+2 For each user optimizely will use different type of css animations.
+3 For changing users with out back end i used uuidv4 libary.
+4 Added button for changing type of css animations by user.
+5 Implemented form validations and errors.
+6 Used CssTransiyions to animate Errors popup
+7 All info About user stores in state
+
 ## Available Scripts
 
 In the project directory, you can run:
